@@ -13,7 +13,7 @@ div.container-fluid div img, div.container-sm div img, div.container-md div img,
 }
 
 div.imagen-index {
-  background-image: url("imagenes/galeria/index/index.jpg");
+  background-image: url("/imagenes/galeria/index/index.jpg");
   height: 80vh;
   background-position: center;
   background-size: cover;
