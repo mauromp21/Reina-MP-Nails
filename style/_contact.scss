@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+.contact input {
+  margin-top: 10px;
+  background: $color-reina;
+  caret-color: #fff;
+  border: 1px solid #d870a9;
+}
+
+.contact textarea {
+  margin-top: 10px;
+  background: $color-reina;
+  caret-color: #fff;
+  border: 1px solid #d870a9;
+}
+
+.contact input:focus {
+  margin-top: 10px;
+  color: #fff;
+  background: $color-reina;
+  border: 1px solid #d870a9;
+}
+
+.contact textarea:focus {
+  margin-top: 10px;
+  color: #fff;
+  background: $color-reina;
+  border: 1px solid #d870a9;
+}
+
+.contact input::placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+
+.contact textarea::placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #aa5679;
+  border-color: #8e24aa;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #aa5679;
+  border-color: #8e24aa;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+  box-shadow: 0 0 0 0rem rgb(255, 255, 255);
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #8e24aa;
+  border-color: #8e24aa;
+}

@@ -1,0 +1,39 @@
+div.container-fluid div img {
+  box-shadow: 0px 0px 50px 0px rgba(189, 94, 94, 0.8);
+  border: 15px outset #dba5bb;
+}
+
+div.imagen-index {
+  background-image: url("/imagenes/galeria/index/index.jpg");
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagenes-circulos {
+  width: 300px;
+  height: 300px;
+}
+
+.eslogan {
+  color: $color-reina;
+  font-style: inherit;
+  font-size: 38px;
+  letter-spacing: 4px;
+  padding: 30px 10px 30px 10px;
+  background: linear-gradient(to right, rgb(8, 8, 8), rgb(53, 53, 52));
+  border-radius: 10px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.eslogan--font {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

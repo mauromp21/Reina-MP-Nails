@@ -1,0 +1,58 @@
+$color-promo-1: rgb(173, 99, 161);
+$color-promo-2: darkkhaki;
+$color-promo-3: darksalmon;
+$color-promo: black;
+$alto: 100%;
+$ancho: 200%;
+
+.promo-1 {
+  background-color: $color-promo-1;
+  width: $ancho/2;
+  height: $alto * 2;
+}
+
+.promo-2 {
+  background-color: $color-promo-2;
+}
+
+.promo-3 {
+  background-color: $color-promo-3;
+}
+
+/*CONDICIONALES*/
+$color-promo-1: viernes; /* Mi constante */
+p {
+  @if $color-promo-1 == viernes {
+    background-color: rgb(13, 13, 14);
+    color: white;
+    font-size: 40px;
+  } @else if $color-promo-1 == jueves {
+    background-color: yellow;
+    color: red;
+    font-size: 40px;
+  } @else {
+    background-color: rgb(74, 86, 194);
+    color: rgb(32, 211, 71);
+    font-size: 40px;
+  }
+}
+
+/*BUCLES*/
+$columnas: 3;
+
+@for $i from 1 through 3 {
+  .promo-#{$i} {
+    width: 50em * $i;
+    height: $alto;
+    color: $color-promo;
+  }
+}
+
+/*EACH*/
+@each $dia in promo-1, promo-2, promo-3 {
+  .#{$dia} {
+    background-image: url("imagenes/galeria/varias/#{$dia}.jpg");
+    width: 100%;
+    height: auto;
+  }
+}
