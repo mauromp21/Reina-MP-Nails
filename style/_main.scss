@@ -1,3 +1,10 @@
+/* MEDIA QUERIES*/
+@media only screen and (min-width: 320px) {
+  .servicios-frase {
+    max-width: 100%;
+  }
+}
+
 div.container-fluid div img {
   box-shadow: 0px 0px 50px 0px rgba(189, 94, 94, 0.8);
   border: 15px outset #dba5bb;
