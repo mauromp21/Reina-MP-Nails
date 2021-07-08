@@ -11673,66 +11673,7 @@ fieldset:disabled .btn {
   border-color: #8e24aa;
 }
 
-.promo-1 {
-  background-color: #ad63a1;
-  width: 100%;
-  height: 200%;
-}
-
-.promo-2 {
-  background-color: darkkhaki;
-}
-
-.promo-3 {
-  background-color: darksalmon;
-}
-
-/*CONDICIONALES*/
-/* Mi constante */
-p {
-  background-color: #0d0d0e;
-  color: white;
-  font-size: 40px;
-}
-
-/*BUCLES*/
-.promo-1 {
-  width: 50em;
-  height: 100%;
-  color: black;
-}
-
-.promo-2 {
-  width: 100em;
-  height: 100%;
-  color: black;
-}
-
-.promo-3 {
-  width: 150em;
-  height: 100%;
-  color: black;
-}
-
-/*EACH*/
-.promo-1 {
-  background-image: url("imagenes/galeria/varias/promo-1.jpg");
-  width: 100%;
-  height: auto;
-}
-
-.promo-2 {
-  background-image: url("imagenes/galeria/varias/promo-2.jpg");
-  width: 100%;
-  height: auto;
-}
-
-.promo-3 {
-  background-image: url("imagenes/galeria/varias/promo-3.jpg");
-  width: 100%;
-  height: auto;
-}
-
+/*@import "promociones";*/
 h3, .h3 {
   color: #4d4d50;
   text-align: center;
