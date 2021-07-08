@@ -48,7 +48,7 @@ h3 {
 }
 
 .imagen_carousel1 {
-  background: url("imagenes/galeria/varias/1.jpg");
+  background: url("/..imagenes/galeria/varias/1.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ h3 {
 }
 
 .imagen_carousel2 {
-  background: url("imagenes/galeria/varias/2.jpg");
+  background: url("../imagenes/galeria/varias/2.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@ h3 {
 }
 
 .imagen_carousel3 {
-  background: url("imagenes/galeria/varias/4.jpg");
+  background: url("../imagenes/galeria/varias/4.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
