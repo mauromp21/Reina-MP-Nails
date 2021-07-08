@@ -11755,12 +11755,12 @@ h3, .h3 {
 /* MEDIA QUERIES*/
 @media only screen and (min-width: 320px) {
   div.servicios-frase {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
 .servicios-frase {
-  font-size: 55px;
+  font-size: 35px;
   background-color: #111111;
 }
 
