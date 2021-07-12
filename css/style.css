@@ -11673,7 +11673,18 @@ fieldset:disabled .btn {
   border-color: #8e24aa;
 }
 
-/*@import "promociones";*/
+.promo-1 {
+  background-color: #ad63a1;
+}
+
+.promo-2 {
+  background-color: darkkhaki;
+}
+
+.promo-3 {
+  background-color: darksalmon;
+}
+
 h3, .h3 {
   color: #4d4d50;
   text-align: center;
