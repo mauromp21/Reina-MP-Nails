@@ -13,7 +13,7 @@ div.container-fluid div img, div.container-sm div img, div.container-md div img,
 }
 
 div.imagen-index {
-  background-image: url("../imagenes/galeria/index/index.jpg");
+  background-image: url("../imagenes/index/index.jpg");
   height: 80vh;
   background-position: center;
   background-size: cover;
@@ -11722,7 +11722,7 @@ h3, .h3 {
 }
 
 .imagen_carousel1 {
-  background: url("../imagenes/galeria/varias/1.jpg");
+  background: url("../imagenes/varias/1.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -11731,7 +11731,7 @@ h3, .h3 {
 }
 
 .imagen_carousel2 {
-  background: url("../imagenes/galeria/varias/2.jpg");
+  background: url("../imagenes/varias/2.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -11740,7 +11740,7 @@ h3, .h3 {
 }
 
 .imagen_carousel3 {
-  background: url("../imagenes/galeria/varias/4.jpg");
+  background: url("../imagenes/varias/4.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -11782,7 +11782,7 @@ h3, .h3 {
 }
 
 div.servicios-imagen-fondo {
-  background-image: url("../imagenes/galeria/index/servicios.jpg");
+  background-image: url("../imagenes/index/servicios.jpg");
   height: 80vh;
   background-position: center;
   background-size: cover;
