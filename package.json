@@ -1,0 +1,20 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "El arte de las uñas, servicios de manicuria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mauroSass": "sass --watch style/style.scss css/style.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauromp21/Reina-MP-Nails.git"
+  },
+  "author": "plenasio mauro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauromp21/Reina-MP-Nails/issues"
+  },
+  "homepage": "https://github.com/mauromp21/Reina-MP-Nails#readme"
+}
