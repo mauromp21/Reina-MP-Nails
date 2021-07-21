@@ -8,7 +8,7 @@
 
 div.container-fluid div img, div.container-xxl div img, div.container-xl div img, div.container-lg div img, div.container-md div img, div.container-sm div img {
   box-shadow: 0px 0px 50px 0px rgba(189, 94, 94, 0.8);
-  border: 15px outset #dba5bb;
+  border: 1px outset #dba5bb;
 }
 
 div.imagen-index {
@@ -10873,6 +10873,10 @@ textarea.form-control-lg {
   border-color: #8e24aa;
 }
 
+/* MEDIA QUERIES*/
+/*@media only screen and (max-width: 320px) {
+}
+*/
 .promo-1 {
   background-color: #d190c6;
 }
@@ -10962,13 +10966,10 @@ h3, .h3 {
   border: 5px solid blanchedalmond;
 }
 
-/*servicios*/
-/* MEDIA QUERIES*/
-@media only screen and (min-width: 320px) {
-  div.servicios-frase {
-    max-width: 100%;
-  }
+div.row {
+  --bs-gutter-x: 0 !important;
 }
+
 .servicios-frase {
   font-size: 35px;
   background-color: #111111;
@@ -10979,6 +10980,10 @@ div.servicios-imagen-fondo {
   height: 80vh;
   background-position: center;
   background-size: cover;
+}
+
+.img-fluid {
+  max-width: 90% !important;
 }
 
 .servicios-esculpidas {

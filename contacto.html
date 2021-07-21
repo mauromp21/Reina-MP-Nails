@@ -59,38 +59,59 @@
       </div>
     </header>
     <main>
-      <div class="container d-flex justify-content-center">
-        <div class="contact px-5 py-5 w-100">
-          <h4>Dejanos tu Mensaje</h4>
-          <div class="row">
-            <div class="col-md-6 p-2">
-              <input type="text" class="form-control" placeholder="Nombre" />
+      <form
+        action="https://formsubmit.co/mauroplenasio@gmail.com"
+        method="POST"
+      >
+        <div class="container d-flex justify-content-center">
+          <div class="contact px-5 py-5 w-100">
+            <h4>Dejanos tu Mensaje</h4>
+            <div class="row">
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  class="form-control"
+                  placeholder="Nombre"
+                />
+              </div>
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Teléfono"
+                />
+              </div>
             </div>
-            <div class="col-md-6 p-2">
-              <input type="text" class="form-control" placeholder="Teléfono" />
+            <div class="row">
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  name="email"
+                  required
+                  class="form-control"
+                  placeholder="Correo"
+                />
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 p-2">
-              <input type="text" class="form-control" placeholder="Correo" />
+            <div class="row mt-3">
+              <div class="col-md-12 p-2">
+                <textarea
+                  rows="18"
+                  class="form-control"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
             </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-md-12 p-2">
-              <textarea
-                rows="18"
-                class="form-control"
-                placeholder="Mensaje"
-              ></textarea>
+            <div class="pull-left">
+              <button class="btn btn-success mt-2 px-5">
+                Enviar <i class="fa fa-long-arrow-right ml-2 mt-1"></i>
+              </button>
             </div>
-          </div>
-          <div class="pull-left">
-            <button class="btn btn-success mt-2 px-5">
-              Enviar <i class="fa fa-long-arrow-right ml-2 mt-1"></i>
-            </button>
           </div>
         </div>
-      </div>
+      </form>
     </main>
     <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
