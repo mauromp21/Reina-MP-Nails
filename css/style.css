@@ -11078,10 +11078,9 @@ div.servicios-imagen-fondo {
   background-size: cover;
 }
 
-.img-fluid {
+/*.img-fluid {
   max-width: 90% !important;
-}
-
+}*/
 .servicios-esculpidas {
   font-size: 18px;
   color: #ecf7f7;
